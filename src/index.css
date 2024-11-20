@@ -16,15 +16,37 @@ button {
   border: 1px solid black;
   border-radius: 5px;
   margin-left: 5px;
+  cursor: pointer;
+}
+button:hover {
+  box-shadow: -1px 3px 4px 0px rgba(0, 0, 0, 0.65);
 }
 ul {
-  margin: 50px 200px;
+  margin: 15px 200px;
   color: aliceblue;
   list-style: none;
 }
 li {
   text-decoration: none;
 }
+li h4 {
+  margin-bottom: 5px;
+}
 .deleteBtn {
   background-color: rgb(5, 111, 69);
 }
+label span,
+input {
+  display: block;
+}
+
+form {
+  margin-bottom: 15px;
+  margin-left: 215px;
+}
+form button {
+  margin-top: 10px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
