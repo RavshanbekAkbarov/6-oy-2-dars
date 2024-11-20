@@ -1,0 +1,30 @@
+body {
+  background-image: url(img/image.png);
+  background-size: cover; /* Rasmni butun sahifani qoplash uchun */
+  background-position: center; /* Rasmni markazda joylash */
+  background-repeat: no-repeat; /* Rasmni takrorlashni o'chirish */
+}
+
+.completed {
+  opacity: 0.5;
+  text-decoration: line-through;
+}
+button {
+  padding: 5px 8px;
+  background-color: chocolate;
+  color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+ul {
+  margin: 50px 200px;
+  color: aliceblue;
+  list-style: none;
+}
+li {
+  text-decoration: none;
+}
+.deleteBtn {
+  background-color: rgb(5, 111, 69);
+}
